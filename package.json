@@ -1,0 +1,27 @@
+{
+  "name": "wattage",
+  "version": "1.0.0",
+  "description": "Node.js ratelimiter connected to MongoDB, meant to power clustered and scalable projects.",
+  "entry": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ratelimit",
+    "mongodb",
+    "cluster"
+  ],
+  "author": "Airbus-A330",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Airbus-A330/wattage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Airbus-A330/wattage/issues"
+  },
+  "homepage": "https://github.com/Airbus-A330/wattage#readme",
+  "dependencies": {
+    "mongoose": "^8.4.0"
+  }
+}
