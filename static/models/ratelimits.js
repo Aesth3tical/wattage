@@ -1,7 +1,6 @@
-const mongoose = require("mongoose");
-const { Schema } = require("mongoose");
+const { Model } = require("mongoose");
 
-const ratelimits = new Schema({
+module.exports = new Model({
     _id: String,
     discriminator: String,
     count: Number,
@@ -10,5 +9,3 @@ const ratelimits = new Schema({
   _id: false,
   versionKey: false
 });
-
-module.exports = mongoose.model("Ratelimits", ratelimits, "ratelimits");
